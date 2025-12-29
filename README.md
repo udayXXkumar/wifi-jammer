@@ -172,8 +172,7 @@ sudo ./wifi_Jammer.py -h
 
     -   Re-enables network services
 
-### 💀 Attack Methodology
-
+## 💀 Attack Methodology
 -   **Deauthentication Frames**: Sends IEEE 802.11 deauth packets
 
 -   **Channel Switching**: Dynamically changes channels to target multiple APs
