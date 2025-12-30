@@ -334,9 +334,9 @@ def get_user_selection(ap_list):
     print("ATTACK SELECTION")
     print("="*80)
     print("Options:")
-    print("  s - Attack single AP")
-    print("  m - Attack multiple APs")
-    print("  a - Attack all APs")
+    print("  s - Attack single WI-FI")
+    print("  m - Attack multiple Wi-Fi's")
+    print("  a - Attack all Wi-Fi's")
     print("  q - Quit")
     print("-"*80)
     
