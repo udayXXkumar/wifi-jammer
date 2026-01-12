@@ -597,7 +597,6 @@ class TargetedDeauthEngine:
                     print(f"    APs({len(aps_on_channel)}): ")
                     for ap in aps_on_channel:
                         print(f"    {ap.essid} - {ap.bssid}")
-                    print(f"    Target clients: {total_target_clients}")
                     print("-" * 40)
 
                     self.set_channel(ch)
