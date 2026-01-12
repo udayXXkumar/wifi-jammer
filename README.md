@@ -15,7 +15,6 @@ Wi-Fi Jammer is a Python-based tool designed to disconnect devices such as phone
 The tool supports single Wi-Fi, multiple Wi-Fi, and all-networks disruption within range. It also includes an exclusive mode that allows you to exclude your own device using its MAC address, ensuring your connection remains active while other devices are disconnected—giving you the maximum internet speed.
 
 Features --- Wi-Fi Jammer v2.0 ✨
-==============================
 
 
 🎯 Attack Modes
@@ -80,15 +79,6 @@ Features --- Wi-Fi Jammer v2.0 ✨
   </a>
 </p>
 
-### 🛠️ Required Tools
-**The following must be installed on your system:**
-- python3, aircrack-ng, wireless-tools iw
-
-```bash
-sudo chmod +x setup.sh
-sudo ./setup.sh 
-```
-
 
 📦 Installation
 ---------------
@@ -100,6 +90,10 @@ sudo ./setup.sh
 # Clone the repository
 git clone https://github.com/udayXXkumar/wifi-jammer.git
 cd wifi-jammer
+
+# Installs python3, aircrack-ng, wireless-tools iw
+sudo chmod +x setup.sh
+sudo ./setup.sh 
 
 # Make executable
 chmod +x wifi_Jammer.py
