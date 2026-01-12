@@ -1,4 +1,4 @@
-# 🛰️ Wi-Fi Jammer -  Deauthentication Tool
+# 🛰️ Wi-Fi Jammer v2.0-  Deauthentication Tool
 
 > **⚠️ DISCLAIMER: FOR AUTHORIZED SECURITY TESTING AND EDUCATIONAL PURPOSES ONLY**
 
