@@ -14,23 +14,54 @@ Wi-Fi Jammer is a Python-based tool designed to disconnect devices such as phone
 
 The tool supports single Wi-Fi, multiple Wi-Fi, and all-networks disruption within range. It also includes an exclusive mode that allows you to exclude your own device using its MAC address, ensuring your connection remains active while other devices are disconnected—giving you the maximum internet speed.
 
-## ✨ Features
+Features --- Wi-Fi Jammer v2.0 ✨
+==============================
 
-### 🎯 Targeted Attack Modes
-- **Single AP Attack**: Target individual Wi-Fi networks
-- **Multiple AP Attack**: Select and attack multiple networks sequentially
-- **All APs Attack**: Comprehensive channel-based attack on all detected networks
 
-### 🔍 Network Discovery
-- Automatic Wi-Fi network scanning
-- Detailed AP information display (ESSID, BSSID, Channel, Signal, Clients)
-- Real-time network monitoring using airodump-ng
+🎯 Attack Modes
+---------------
 
-### ⚡ Advanced Capabilities
-- Intelligent channel switching
-- Signal strength-based attack prioritization
-- Concurrent deauthentication attacks
-- Graceful cleanup and process management
+-   **Single AP Attack** --- Target an individual Wi-Fi network (per-AP duration, client list shown).
+
+-   **Multiple AP Attack** --- Select several networks; attacks are grouped by channel and executed sequentially.
+
+-   **All APs Attack** --- Continuously attack all discovered networks using channel-based scheduling and proportional timing.
+
+🔒 Exclusive Mode (Exclude Yourself)
+------------------------------------
+
+-   **Exclusive mode** lets you protect one or more MAC addresses (e.g., your device) so they remain connected while other clients are disconnected.
+
+-   Auto-detects the running system's MAC and offers to add it to the protected list.
+
+-   Protected MACs are displayed with vendor/manufacturer info to make management easy.
+
+
+⚡ Advanced Attack Capabilities
+------------------------------
+
+-   **Intelligent channel grouping** --- APs grouped by channel for efficient attacks.
+
+-   **Signal-based prioritization** --- Channels are scored (AP count × signal) and attacked in priority order.
+
+-   **Proportional timing** --- Attack durations per channel are proportional to channel score.
+
+-   **Concurrent deauth** --- Launch multiple aireplay-ng deauth processes per channel/target for effective disconnection.
+
+
+
+🧾 Better UX & Feedback
+-----------------------
+
+-   Smooth **animated progress bars** during attacks with ETA and client counts.
+
+-   Shows **protected MACs** and **target MACs** with manufacturer names.
+
+-   Informative channel / AP listings before each cycle so the user always knows what's being attacked.
+
+-   Clear warnings and confirmations for destructive actions (e.g., "attack ALL networks").
+
+
 
 
 ## 🔧 Prerequisites
