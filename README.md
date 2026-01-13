@@ -15,7 +15,7 @@ Wi-Fi Jammer is a Python-based tool designed to disconnect devices such as phone
 The tool supports single Wi-Fi, multiple Wi-Fi, and all-networks disruption within range. It also includes an exclusive mode that allows you to exclude your own device using its MAC address, ensuring your connection remains active while other devices are disconnected—giving you the maximum internet speed.
 
 Features --- Wi-Fi Jammer v2.0 ✨
-
+======================
 
 🎯 Attack Modes
 ---------------
